@@ -1,0 +1,15 @@
+# Python
+__pycache__/
+*.pyc
+.env
+
+# Node
+node_modules/
+dist/
+
+# Docker
+mysql_data/
+
+# OS
+.DS_Store
+Thumbs.db
