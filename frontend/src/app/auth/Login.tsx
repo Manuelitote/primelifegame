@@ -88,7 +88,7 @@ const Login = () => {
         <div className="bg-gray-800 bg-opacity-50 backdrop-blur-lg rounded-2xl shadow-2xl p-8 border border-gray-700">
           {/* Success Message */}
           {successMessage && (
-            <div className="mb-6 bg-green-500 bg-opacity-10 border border-green-500 text-green-400 px-4 py-3 rounded-lg text-sm">
+            <div className="mb-6 bg-green-500 bg-opacity-10 border border-green-500 text-white px-4 py-3 rounded-lg text-sm">
               {successMessage}
             </div>
           )}
@@ -142,7 +142,7 @@ const Login = () => {
 
             {/* Error Message */}
             {error && (
-              <div className="bg-red-500 bg-opacity-10 border border-red-500 text-red-400 px-4 py-3 rounded-lg text-sm">
+              <div className="bg-red-500 bg-opacity-10 border border-red-500 text-white-400 px-4 py-3 rounded-lg text-sm">
                 {error}
               </div>
             )}

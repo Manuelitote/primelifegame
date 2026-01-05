@@ -18,9 +18,5 @@ app.add_middleware(
 
 Base.metadata.create_all(bind=engine)
 
-@app.post("/api/auth/register")
-def register():
-    return {"message": "ok"}
-
 app.include_router(auth_router)
 app.include_router(health_router)
